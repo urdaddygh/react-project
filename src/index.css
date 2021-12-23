@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: cadetblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper{
+  padding-top: 20px;
+  margin:0 auto;
+  width: 100%;
+  min-width: 1024;
+}
+.book{
+  margin:0 auto;
+  align-items: center;
+  text-align: center;
+  border: 4px double black; ;
+}
+.btnRemove{
+  color: aquamarine;
+  background-color: black;
+  border-radius: 50%;
+}
+.content{
+  color: brown;
+  font-family: 'Times New Roman', Times, serif;
 }
